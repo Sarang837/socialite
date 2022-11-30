@@ -4,14 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035f4367-c250-4015-b2dc-d6c8eaf7858a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socialite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+    <list default="true" id="035f4367-c250-4015-b2dc-d6c8eaf7858a" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/info1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/info2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/info3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/info4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/p9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/post8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/assets/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.8.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.8.0&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarang Desai\IdeaProjects\Socialite\server" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,8 +94,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669700138998</updated>
-      <workItem from="1669700141843" duration="328000" />
+      <workItem from="1669700141843" duration="4400000" />
+      <workItem from="1669745566502" duration="1281000" />
+      <workItem from="1669776906570" duration="3975000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1669700501844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669700501844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
