@@ -4,47 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035f4367-c250-4015-b2dc-d6c8eaf7858a" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middleware/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/info1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/info2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/info3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/info4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/p9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/post8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/assets/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
+    <list default="true" id="035f4367-c250-4015-b2dc-d6c8eaf7858a" name="Changes" comment="completed backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +58,7 @@
       <updated>1669700138998</updated>
       <workItem from="1669700141843" duration="4400000" />
       <workItem from="1669745566502" duration="1281000" />
-      <workItem from="1669776906570" duration="3975000" />
+      <workItem from="1669776906570" duration="4375000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669700501844</created>
@@ -105,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669700501844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed backend">
+      <created>1669781088521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669781088521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="completed backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed backend" />
   </component>
 </project>
